@@ -84,6 +84,7 @@ strong { font-weight: var(--fw-bold) }
 
 .btn:hover {
     transform: scale(1.1);
+    background-color: rgb(173, 10, 10);
 }
 
 /* Typography */
