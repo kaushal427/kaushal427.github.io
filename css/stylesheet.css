@@ -26,6 +26,10 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
+a:hover {
+    color: var(--clr-light);
+}
+
 @media (min-width: 800px) {
     :root {
         --fs-h1: 4.5rem;
@@ -84,7 +88,6 @@ strong { font-weight: var(--fw-bold) }
 
 .btn:hover {
     transform: scale(1.1);
-    background: var(--clr-light);
 }
 
 /* Typography */
